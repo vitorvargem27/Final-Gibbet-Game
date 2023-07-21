@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 30px;
+    background-image: url("../images/backgroundGame.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+
+.container{
+    margin-top: 350px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#gibbetImage{
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+}
+
+.imgFullLife {
+    background-image: url("../images/fullLife.png") ;
+}
+
+.imgFourLifes{
+    background-image: url("../images/fourLifes.png") ;
+}
+
+.imgThreeLifes{
+    background-image: url("../images/threeLifes.png") ;
+}
+
+.imgTwoLifes{
+    background-image: url("../images/twoLifes.png") ;
+}
+
+.imgLastLife{
+    background-image: url("../images/lastLife.png") ;
+}
+
+.imgLoseAllLifes{
+    background-image: url("../images/loseAllLifes.png") ;
+}
+
+#gibbetImage:hover{
+    cursor: grab;
+}
+
+#secretWord{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#secretWord:hover{
+    cursor: no-drop;
+}
+
+.letter{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#keyboardPart{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#keyboardPart2{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.letterButton{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+.letterButton:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#ButtonGameAgain{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+#ButtonGameAgain:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+#categories{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;
+}
